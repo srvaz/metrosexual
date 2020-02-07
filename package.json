@@ -13,7 +13,8 @@
 		"onCommand:extension.metrosexualStart",
 		"onCommand:extension.metrosexualStop",
 		"onCommand:extension.metrosexualLightTheme",
-		"onCommand:extension.metrosexualDarkTheme"
+		"onCommand:extension.metrosexualDarkTheme",
+		"*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
