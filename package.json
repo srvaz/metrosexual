@@ -10,8 +10,6 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.metrosexualStart",
-		"onCommand:extension.metrosexualStop",
 		"onCommand:extension.metrosexualLightTheme",
 		"onCommand:extension.metrosexualDarkTheme",
 		"*"
@@ -19,14 +17,6 @@
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "extension.metrosexualStart",
-				"title": "Metrosexual: Start Metrosexual"
-			},
-			{
-				"command": "extension.metrosexualStop",
-				"title": "Metrosexual: Stop Metrosexual"
-			},
 			{
 				"command": "extension.metrosexualLightTheme",
 				"title": "Metrosexual: Define light theme"
